@@ -88,15 +88,16 @@ header{
 
 /* seconde immagini */
 
+/* top o bottom 0 vanno bene lo stesso */
 .product-overlay {
     display: none;
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 0;
+    top: 0; 
     left: 0;
 }
 
 .product:hover .product-overlay{
-    display: inline;
+    display: inline-block;
 }
