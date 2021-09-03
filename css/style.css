@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    color: #EC732E;
+    padding: 10px 0 10px 40px;
+}
+
+.general-container{
+    width: 960px;
+    margin: 20px auto;
+    border: 1px solid black;
+    min-height: 300px;
+}
+/* Prodotto singolo */
+.product{
+    width: 315px;
+    position: relative;
+    display: inline-block;
+}
+
+.product img{
+    width: 100%;
+}
+
+.advice{
+    position: absolute;
+    bottom: 60px;
+    color: white;
+    padding: 5px 5px;
+
+}
+
+.green-advice{
+    left: 40px;
+    background-color: #00875B;
+}
+.red-advice{
+    left: 0;
+    background-color: #EB0038;
+}
+.text{
+    display: block;
+
+}
