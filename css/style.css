@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Besley', serif;
 }
 
 header{
@@ -35,23 +36,34 @@ header{
     top: 15px;
     right: 0;
     background-color: white;
-    padding-left: 17px;
-    padding-top: 10px;
+    line-height: 50px;
+    text-align: center;
+}
+.heart{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    display: inline-block;
+    
 }
 
 .advice{
     position: absolute;
-    bottom: 70px;
+    bottom: 100px;
     color: white;
-    padding: 5px 5px;
+    padding: 0 5px;
     margin-right: 5px;
 
 }
 
 .green-advice{
-    left: 40px;
+    left: 50px;
     background-color: #00875B;
     margin-left: 10px;
+}
+.only{
+    left: 0;
+    margin: 0;
 }
 .red-advice{
     left: 0;
@@ -62,7 +74,7 @@ header{
 }
 
 .description{
-    font: bold;
+    font-weight: bold;
 }
 .current-price{
     color: #E80001;
@@ -73,3 +85,5 @@ header{
     position: relative;
     text-decoration: line-through;
 }
+
+/* seconde immagini */
