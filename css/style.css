@@ -30,15 +30,17 @@ header{
 
 .advice{
     position: absolute;
-    bottom: 60px;
+    bottom: 70px;
     color: white;
     padding: 5px 5px;
+    margin-right: 5px;
 
 }
 
 .green-advice{
     left: 40px;
     background-color: #00875B;
+    margin-left: 5px;
 }
 .red-advice{
     left: 0;
@@ -46,5 +48,17 @@ header{
 }
 .text{
     display: block;
+}
 
+.description{
+    font: bold;
+}
+.current-price{
+    color: #E80001;
+    font-weight: bold;
+    display: inline-block;
+}
+.original-price{
+    position: relative;
+    text-decoration: line-through;
 }
